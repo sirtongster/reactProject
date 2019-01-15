@@ -1,0 +1,46 @@
+.header{
+	height: 66px;
+	padding: 13px;
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+	.logo{
+		justify-content: space-between;
+		align-items: center;
+		.image{
+			width: 40px;
+			height: 40px;
+			img{
+				border-radius: 15px;
+				width: 100%;
+			}
+		}
+		.paths{
+			.menu{
+				.hamburger{
+					padding: 0;
+					.hamburger-box{
+						width: 23px;
+						.hamburger-inner{
+							&, &::before, &::after{width: 23px}
+							&::before{top: -7px}
+							&::after{bottom: -7px}
+						}
+					}
+				}
+			}
+			ul{
+				display: none; // !!!!!!!!!
+				li{
+					list-style: none;
+					a{ text-decoration: none ;}
+				}
+			}
+		}
+	}
+	.sidebar{
+		position: absolute;
+		top: 100vh;
+		left: 0;
+		bottom: 0;
+		right: 0;
+	}
+}
