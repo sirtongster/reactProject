@@ -22,9 +22,9 @@ class Header extends React.Component{
 					</div>
 					<div className="paths">
 						<div className="menu" onClick={ this.toggleStatus }>
-							<button class="hamburger hamburger--squeeze" type="button">
-								<span class="hamburger-box">
-									<span class="hamburger-inner"></span>
+							<button className="hamburger hamburger--squeeze" type="button">
+								<span className="hamburger-box">
+									<span className="hamburger-inner"></span>
 								</span>
 							</button>
 						</div>

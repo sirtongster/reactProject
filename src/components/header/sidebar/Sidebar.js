@@ -12,9 +12,9 @@ class Sidebar extends React.Component{
 		return(
 			<div className={`sidebar ${(open)?'open':''}`}>
 				<div className="closer flex flex-row" onClick={ toggleStatus }>
-					<button class="hamburger hamburger--squeeze is-active" type="button">
-						<span class="hamburger-box">
-							<span class="hamburger-inner"></span>
+					<button className="hamburger hamburger--squeeze is-active" type="button">
+						<span className="hamburger-box">
+							<span className="hamburger-inner"></span>
 						</span>
 					</button>
 				</div>
